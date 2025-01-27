@@ -7,7 +7,6 @@ WORKDIR /usr/app/
 
 COPY . .
 
-RUN npm install -g typescript
 RUN npm i
 
 ENV PORT 80
